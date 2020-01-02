@@ -5,4 +5,4 @@ After struggling to get any decent set for ergodox, I decided it was better to s
 
 The layout would look something like this.
 
-!("pcb renders"/ergocape_kle.png)
+![Layout Image](pcb%20renders/ergocape_kle.png)
