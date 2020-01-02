@@ -1,0 +1,1823 @@
+EESchema Schematic File Version 4
+LIBS:ergocape-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Crystal_GND24_Small X1
+U 1 1 5E067E07
+P 8700 4400
+F 0 "X1" H 8841 4446 50  0000 L CNN
+F 1 "Crystal_GND24_Small" H 8841 4355 50  0000 L CNN
+F 2 "acheron_Components:Crystal_SMD_5032-4Pin-HandSolder" H 8700 4400 50  0001 C CNN
+F 3 "~" H 8700 4400 50  0001 C CNN
+	1    8700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4250 8800 4400
+Wire Wire Line
+	8550 4250 8550 4400
+Wire Wire Line
+	8550 4400 8600 4400
+Connection ~ 8700 4525
+Wire Wire Line
+	8700 4525 8700 4500
+Wire Wire Line
+	8700 4300 8700 4275
+Connection ~ 8700 4275
+Wire Wire Line
+	8700 4275 8700 4250
+Wire Wire Line
+	8550 4400 8550 4500
+Connection ~ 8550 4400
+Wire Wire Line
+	8800 4400 8800 4500
+Connection ~ 8800 4400
+$Comp
+L Device:C_Small C1
+U 1 1 5E0997FC
+P 8800 4600
+F 0 "C1" H 8850 4650 50  0000 L CNN
+F 1 "22p" H 8850 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 4600 50  0001 C CNN
+F 3 "~" H 8800 4600 50  0001 C CNN
+	1    8800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5E099832
+P 8550 4600
+F 0 "C2" H 8400 4650 50  0000 L CNN
+F 1 "22p" H 8200 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 4600 50  0001 C CNN
+F 3 "~" H 8550 4600 50  0001 C CNN
+	1    8550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5E099B5E
+P 6150 5450
+F 0 "C3" H 6150 5600 50  0000 L CNN
+F 1 "0.1u" H 6000 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 5450 50  0001 C CNN
+F 3 "~" H 6150 5450 50  0001 C CNN
+	1    6150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5E099B8F
+P 6400 5450
+F 0 "C4" H 6400 5600 50  0000 L CNN
+F 1 "0.1u" H 6300 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6400 5450 50  0001 C CNN
+F 3 "~" H 6400 5450 50  0001 C CNN
+	1    6400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5E099BB1
+P 6650 5450
+F 0 "C5" H 6650 5600 50  0000 L CNN
+F 1 "0.1u" H 6550 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6650 5450 50  0001 C CNN
+F 3 "~" H 6650 5450 50  0001 C CNN
+	1    6650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5E099BD5
+P 6850 5450
+F 0 "C6" H 6850 5600 50  0000 L CNN
+F 1 "0.1u" H 6800 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6850 5450 50  0001 C CNN
+F 3 "~" H 6850 5450 50  0001 C CNN
+	1    6850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5E099BFD
+P 7100 5450
+F 0 "C7" H 7100 5600 50  0000 L CNN
+F 1 "4.7u" H 7000 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 5450 50  0001 C CNN
+F 3 "~" H 7100 5450 50  0001 C CNN
+	1    7100 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5350 6150 5350
+Connection ~ 6150 5350
+Wire Wire Line
+	6150 5350 6400 5350
+Connection ~ 6400 5350
+Wire Wire Line
+	6400 5350 6650 5350
+Connection ~ 6650 5350
+Wire Wire Line
+	6650 5350 6850 5350
+Connection ~ 6850 5350
+Wire Wire Line
+	6850 5350 7100 5350
+Wire Wire Line
+	5900 5550 6150 5550
+Connection ~ 6150 5550
+Wire Wire Line
+	6150 5550 6400 5550
+Connection ~ 6400 5550
+Wire Wire Line
+	6400 5550 6650 5550
+Connection ~ 6650 5550
+Wire Wire Line
+	6650 5550 6850 5550
+Connection ~ 6850 5550
+Wire Wire Line
+	6850 5550 7100 5550
+$Comp
+L power:VCC #PWR0102
+U 1 1 5E09A23A
+P 5900 5350
+F 0 "#PWR0102" H 5900 5200 50  0001 C CNN
+F 1 "VCC" H 5917 5523 50  0000 C CNN
+F 2 "" H 5900 5350 50  0001 C CNN
+F 3 "" H 5900 5350 50  0001 C CNN
+	1    5900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E09A2C8
+P 5900 5550
+F 0 "#PWR0103" H 5900 5300 50  0001 C CNN
+F 1 "GND" H 5905 5377 50  0000 C CNN
+F 2 "" H 5900 5550 50  0001 C CNN
+F 3 "" H 5900 5550 50  0001 C CNN
+	1    5900 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4700 8700 4700
+Wire Wire Line
+	8700 4525 8700 4700
+Connection ~ 8700 4700
+Wire Wire Line
+	8700 4700 8800 4700
+Wire Wire Line
+	8700 4700 8700 4850
+$Comp
+L power:GND #PWR0104
+U 1 1 5E09A982
+P 8700 4850
+F 0 "#PWR0104" H 8700 4600 50  0001 C CNN
+F 1 "GND" H 8705 4677 50  0000 C CNN
+F 2 "" H 8700 4850 50  0001 C CNN
+F 3 "" H 8700 4850 50  0001 C CNN
+	1    8700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5E09AB03
+P 8050 4250
+F 0 "#PWR0105" H 8050 4100 50  0001 C CNN
+F 1 "VCC" H 8068 4423 50  0000 C CNN
+F 2 "" H 8050 4250 50  0001 C CNN
+F 3 "" H 8050 4250 50  0001 C CNN
+	1    8050 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5E09AB8C
+P 10400 3650
+F 0 "#PWR0106" H 10400 3500 50  0001 C CNN
+F 1 "VCC" V 10417 3778 50  0000 L CNN
+F 2 "" H 10400 3650 50  0001 C CNN
+F 3 "" H 10400 3650 50  0001 C CNN
+	1    10400 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5E09AC15
+P 10050 1050
+F 0 "#PWR0107" H 10050 900 50  0001 C CNN
+F 1 "VCC" H 10067 1223 50  0000 C CNN
+F 2 "" H 10050 1050 50  0001 C CNN
+F 3 "" H 10050 1050 50  0001 C CNN
+	1    10050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 5E09AC95
+P 7550 1050
+F 0 "#PWR0108" H 7550 900 50  0001 C CNN
+F 1 "VCC" H 7567 1223 50  0000 C CNN
+F 2 "" H 7550 1050 50  0001 C CNN
+F 3 "" H 7550 1050 50  0001 C CNN
+	1    7550 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1650 6900 1650
+Text Label 6750 1650 2    50   ~ 0
+USB_Vcc
+$Comp
+L power:VCC #PWR0109
+U 1 1 5E09B1E0
+P 6900 1650
+F 0 "#PWR0109" H 6900 1500 50  0001 C CNN
+F 1 "VCC" H 6917 1823 50  0000 C CNN
+F 2 "" H 6900 1650 50  0001 C CNN
+F 3 "" H 6900 1650 50  0001 C CNN
+	1    6900 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 1650
+Wire Wire Line
+	6900 1650 6750 1650
+Wire Wire Line
+	7200 1900 6950 1900
+Wire Wire Line
+	7200 2150 6950 2150
+Text Label 6550 1900 2    50   ~ 0
+USB_D_N_OUT
+Text Label 6550 2150 2    50   ~ 0
+USB_D_P_OUT
+Wire Wire Line
+	7200 2400 6950 2400
+$Comp
+L Device:C_Small C8
+U 1 1 5E09BBBB
+P 6950 2500
+F 0 "C8" H 7042 2546 50  0000 L CNN
+F 1 "1u" H 7042 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6950 2500 50  0001 C CNN
+F 3 "~" H 6950 2500 50  0001 C CNN
+	1    6950 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 2400
+Wire Wire Line
+	6950 2400 6700 2400
+Wire Wire Line
+	6950 2600 6950 2650
+Wire Wire Line
+	6950 2650 7200 2650
+$Comp
+L power:GND #PWR0110
+U 1 1 5E09C05C
+P 6700 2400
+F 0 "#PWR0110" H 6700 2150 50  0001 C CNN
+F 1 "GND" V 6705 2272 50  0000 R CNN
+F 2 "" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E09C21F
+P 6800 1900
+F 0 "R3" V 6700 1900 50  0000 C CNN
+F 1 "22" V 6800 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6730 1900 50  0001 C CNN
+F 3 "~" H 6800 1900 50  0001 C CNN
+	1    6800 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E09C6D1
+P 6800 2150
+F 0 "R4" V 6700 2150 50  0000 C CNN
+F 1 "22" V 6800 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6730 2150 50  0001 C CNN
+F 3 "~" H 6800 2150 50  0001 C CNN
+	1    6800 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1900 6650 1900
+Wire Wire Line
+	6550 2150 6650 2150
+$Comp
+L power:VCC #PWR0111
+U 1 1 5E09D247
+P 7200 2900
+F 0 "#PWR0111" H 7200 2750 50  0001 C CNN
+F 1 "VCC" V 7218 3027 50  0000 L CNN
+F 2 "" H 7200 2900 50  0001 C CNN
+F 3 "" H 7200 2900 50  0001 C CNN
+	1    7200 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 4250 7800 4450
+Text Label 7800 4450 2    50   ~ 0
+RST
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 5E09DE1A
+P 7800 4750
+F 0 "SW1" V 7754 4868 50  0000 L CNN
+F 1 "SW_PUSH" V 7845 4868 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 7800 4750 60  0001 C CNN
+F 3 "" H 7800 4750 60  0000 C CNN
+	1    7800 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0112
+U 1 1 5E09DECB
+P 7600 4900
+F 0 "#PWR0112" H 7600 4750 50  0001 C CNN
+F 1 "VCC" V 7617 5028 50  0000 L CNN
+F 2 "" H 7600 4900 50  0001 C CNN
+F 3 "" H 7600 4900 50  0001 C CNN
+	1    7600 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 4450 7600 4450
+Wire Wire Line
+	7600 4450 7600 4600
+Connection ~ 7800 4450
+$Comp
+L Device:R R1
+U 1 1 5E09E527
+P 7600 4750
+F 0 "R1" H 7500 4900 50  0000 L CNN
+F 1 "10k" V 7600 4700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 4750 50  0001 C CNN
+F 3 "~" H 7600 4750 50  0001 C CNN
+	1    7600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5E09ED87
+P 7800 5050
+F 0 "#PWR0113" H 7800 4800 50  0001 C CNN
+F 1 "GND" H 7805 4877 50  0000 C CNN
+F 2 "" H 7800 5050 50  0001 C CNN
+F 3 "" H 7800 5050 50  0001 C CNN
+	1    7800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E09EFAE
+P 10700 1400
+F 0 "R2" V 10600 1400 50  0000 C CNN
+F 1 "10k" V 10700 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10630 1400 50  0001 C CNN
+F 3 "~" H 10700 1400 50  0001 C CNN
+	1    10700 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10400 1400 10550 1400
+$Comp
+L power:GND #PWR0114
+U 1 1 5E09F677
+P 10850 1400
+F 0 "#PWR0114" H 10850 1150 50  0001 C CNN
+F 1 "GND" V 10855 1272 50  0000 R CNN
+F 2 "" H 10850 1400 50  0001 C CNN
+F 3 "" H 10850 1400 50  0001 C CNN
+	1    10850 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5E09F90B
+P 9800 1050
+F 0 "#PWR0115" H 9800 800 50  0001 C CNN
+F 1 "GND" H 9805 877 50  0000 C CNN
+F 2 "" H 9800 1050 50  0001 C CNN
+F 3 "" H 9800 1050 50  0001 C CNN
+	1    9800 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5E09F98E
+P 7800 1050
+F 0 "#PWR0116" H 7800 800 50  0001 C CNN
+F 1 "GND" H 7805 877 50  0000 C CNN
+F 2 "" H 7800 1050 50  0001 C CNN
+F 3 "" H 7800 1050 50  0001 C CNN
+	1    7800 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5E09FA2F
+P 8300 4250
+F 0 "#PWR0117" H 8300 4000 50  0001 C CNN
+F 1 "GND" H 8305 4077 50  0000 C CNN
+F 2 "" H 8300 4250 50  0001 C CNN
+F 3 "" H 8300 4250 50  0001 C CNN
+	1    8300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5E09FAFD
+P 10400 3900
+F 0 "#PWR0118" H 10400 3650 50  0001 C CNN
+F 1 "GND" V 10405 3772 50  0000 R CNN
+F 2 "" H 10400 3900 50  0001 C CNN
+F 3 "" H 10400 3900 50  0001 C CNN
+	1    10400 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB_1
+U 1 1 5E0A000C
+P 1000 6950
+F 0 "USB_1" H 831 7747 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 831 7641 60  0000 C CNN
+F 2 "usbc_footprint:HRO-TYPE-C-31-M-12" H 1000 6950 60  0001 C CNN
+F 3 "" H 1000 6950 60  0001 C CNN
+	1    1000 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5E0A023F
+P 1100 6400
+F 0 "#PWR0119" H 1100 6150 50  0001 C CNN
+F 1 "GND" V 1105 6272 50  0000 R CNN
+F 2 "" H 1100 6400 50  0001 C CNN
+F 3 "" H 1100 6400 50  0001 C CNN
+	1    1100 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5E0A0323
+P 1100 7500
+F 0 "#PWR0120" H 1100 7250 50  0001 C CNN
+F 1 "GND" V 1105 7372 50  0000 R CNN
+F 2 "" H 1100 7500 50  0001 C CNN
+F 3 "" H 1100 7500 50  0001 C CNN
+	1    1100 7500
+	0    -1   -1   0   
+$EndComp
+Text Label 1100 7400 0    50   ~ 0
+USB_Vcc
+Text Label 1100 6500 0    50   ~ 0
+USB_Vcc
+Text Label 1100 6700 0    50   ~ 0
+CC1
+Text Label 1100 7300 0    50   ~ 0
+CC2
+Wire Wire Line
+	1100 6800 1300 6800
+Wire Wire Line
+	1300 6800 1300 6900
+Wire Wire Line
+	1300 7000 1100 7000
+Wire Wire Line
+	1100 6900 1200 6900
+Wire Wire Line
+	1200 6900 1200 7100
+Wire Wire Line
+	1200 7100 1100 7100
+Wire Wire Line
+	1300 6900 1400 6900
+Connection ~ 1300 6900
+Wire Wire Line
+	1300 6900 1300 7000
+Wire Wire Line
+	1200 7100 1400 7100
+Connection ~ 1200 7100
+Text Label 1400 6900 0    50   ~ 0
+D_N_RAW
+Text Label 1400 7100 0    50   ~ 0
+D_P_RAW
+NoConn ~ 1100 6600
+NoConn ~ 1100 7200
+$Comp
+L Power_Protection_esd:USBLC6-2SC6 U_ESD_1
+U 1 1 5E0A42C1
+P 2900 7000
+F 0 "U_ESD_1" H 2900 7700 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 2900 7600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2150 7400 50  0001 C CNN
+F 3 "" H 3100 7350 50  0001 C CNN
+	1    2900 7000
+	1    0    0    -1  
+$EndComp
+Text Label 2900 6500 2    50   ~ 0
+USB_Vcc
+Text Label 2400 7100 2    50   ~ 0
+D_N_RAW
+Text Label 3400 7100 0    50   ~ 0
+D_P_RAW
+Text Label 2400 6900 2    50   ~ 0
+USB_D_N_OUT
+Text Label 3400 6900 0    50   ~ 0
+USB_D_P_OUT
+$Comp
+L Device:R R_CC1
+U 1 1 5E0A54D7
+P 1950 7300
+F 0 "R_CC1" V 1850 7300 50  0000 C CNN
+F 1 "5.1k" V 1950 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1880 7300 50  0001 C CNN
+F 3 "~" H 1950 7300 50  0001 C CNN
+	1    1950 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R_CC2
+U 1 1 5E0A559C
+P 1950 7400
+F 0 "R_CC2" V 2050 7400 50  0000 C CNN
+F 1 "5.1k" V 1950 7400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1880 7400 50  0001 C CNN
+F 3 "~" H 1950 7400 50  0001 C CNN
+	1    1950 7400
+	0    1    1    0   
+$EndComp
+Text Label 1800 7300 2    50   ~ 0
+CC1
+Text Label 1800 7400 2    50   ~ 0
+CC2
+$Comp
+L power:GND #PWR0121
+U 1 1 5E0A5875
+P 2100 7300
+F 0 "#PWR0121" H 2100 7050 50  0001 C CNN
+F 1 "GND" V 2105 7172 50  0000 R CNN
+F 2 "" H 2100 7300 50  0001 C CNN
+F 3 "" H 2100 7300 50  0001 C CNN
+	1    2100 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5E0A591F
+P 2100 7400
+F 0 "#PWR0122" H 2100 7150 50  0001 C CNN
+F 1 "GND" V 2105 7272 50  0000 R CNN
+F 2 "" H 2100 7400 50  0001 C CNN
+F 3 "" H 2100 7400 50  0001 C CNN
+	1    2100 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_1
+U 1 1 5E0A5ED9
+P 2000 850
+F 0 "K_1" H 2000 850 60  0000 C CNN
+F 1 "KEYSW" H 2000 750 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2000 850 60  0001 C CNN
+F 3 "" H 2000 850 60  0000 C CNN
+	1    2000 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_1
+U 1 1 5E0A5F9D
+P 2300 1000
+F 0 "D_1" V 2400 850 50  0000 L CNN
+F 1 "D" V 2345 1079 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 2300 1000 50  0001 C CNN
+F 3 "~" H 2300 1000 50  0001 C CNN
+	1    2300 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_ESC1
+U 1 1 5E0A6DB9
+P 1050 850
+F 0 "K_ESC1" H 1050 800 60  0000 C CNN
+F 1 "KEYSW" H 1050 750 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 1050 850 60  0001 C CNN
+F 3 "" H 1050 850 60  0000 C CNN
+	1    1050 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ESC1
+U 1 1 5E0A6DC0
+P 1350 1000
+F 0 "D_ESC1" V 1450 700 50  0000 L CNN
+F 1 "D" V 1395 1079 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 1350 1000 50  0001 C CNN
+F 3 "~" H 1350 1000 50  0001 C CNN
+	1    1350 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_2
+U 1 1 5E0A78FE
+P 2750 850
+F 0 "K_2" H 2750 850 60  0000 C CNN
+F 1 "KEYSW" H 2750 750 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2750 850 60  0001 C CNN
+F 3 "" H 2750 850 60  0000 C CNN
+	1    2750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_2
+U 1 1 5E0A7905
+P 3050 1000
+F 0 "D_2" V 3150 850 50  0000 L CNN
+F 1 "D" V 3095 1079 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3050 1000 50  0001 C CNN
+F 3 "~" H 3050 1000 50  0001 C CNN
+	1    3050 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_3
+U 1 1 5E0A841F
+P 3450 850
+F 0 "K_3" H 3450 850 60  0000 C CNN
+F 1 "KEYSW" H 3450 750 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3450 850 60  0001 C CNN
+F 3 "" H 3450 850 60  0000 C CNN
+	1    3450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_3
+U 1 1 5E0A8426
+P 3750 1000
+F 0 "D_3" V 3850 850 50  0000 L CNN
+F 1 "D" V 3795 1079 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 1000 50  0001 C CNN
+F 3 "~" H 3750 1000 50  0001 C CNN
+	1    3750 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_4
+U 1 1 5E0A8F54
+P 4150 850
+F 0 "K_4" H 4150 850 60  0000 C CNN
+F 1 "KEYSW" H 4150 750 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4150 850 60  0001 C CNN
+F 3 "" H 4150 850 60  0000 C CNN
+	1    4150 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_4
+U 1 1 5E0A8F5B
+P 4450 1000
+F 0 "D_4" V 4500 800 50  0000 L CNN
+F 1 "D" V 4495 1079 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4450 1000 50  0001 C CNN
+F 3 "~" H 4450 1000 50  0001 C CNN
+	1    4450 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_5
+U 1 1 5E0A9B35
+P 4850 850
+F 0 "K_5" H 4850 850 60  0000 C CNN
+F 1 "KEYSW" H 4850 750 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4850 850 60  0001 C CNN
+F 3 "" H 4850 850 60  0000 C CNN
+	1    4850 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_5
+U 1 1 5E0A9B3C
+P 5150 1000
+F 0 "D_5" V 5250 850 50  0000 L CNN
+F 1 "D" V 5195 1079 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 5150 1000 50  0001 C CNN
+F 3 "~" H 5150 1000 50  0001 C CNN
+	1    5150 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_Q1
+U 1 1 5E0AB881
+P 2000 1450
+F 0 "K_Q1" H 1850 1350 60  0000 C CNN
+F 1 "KEYSW" H 2000 1350 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2000 1450 60  0001 C CNN
+F 3 "" H 2000 1450 60  0000 C CNN
+	1    2000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DQ1
+U 1 1 5E0AB888
+P 2300 1600
+F 0 "DQ1" V 2400 1400 50  0000 L CNN
+F 1 "D" V 2345 1679 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 2300 1600 50  0001 C CNN
+F 3 "~" H 2300 1600 50  0001 C CNN
+	1    2300 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_TAB1
+U 1 1 5E0AB88F
+P 1050 1450
+F 0 "K_TAB1" H 850 1350 60  0000 C CNN
+F 1 "KEYSW" H 1050 1350 60  0001 C CNN
+F 2 "usbc_footprint:Hybrid_PCB_150H_Dual_hole" H 1050 1450 60  0001 C CNN
+F 3 "" H 1050 1450 60  0000 C CNN
+	1    1050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_tAB1
+U 1 1 5E0AB896
+P 1350 1600
+F 0 "D_tAB1" V 1450 1350 50  0000 L CNN
+F 1 "D" V 1395 1679 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 1350 1600 50  0001 C CNN
+F 3 "~" H 1350 1600 50  0001 C CNN
+	1    1350 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_W1
+U 1 1 5E0AB89D
+P 2750 1450
+F 0 "K_W1" H 2750 1400 60  0000 C CNN
+F 1 "KEYSW" H 2750 1350 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2750 1450 60  0001 C CNN
+F 3 "" H 2750 1450 60  0000 C CNN
+	1    2750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DW1
+U 1 1 5E0AB8A4
+P 3050 1600
+F 0 "DW1" V 3150 1400 50  0000 L CNN
+F 1 "D" V 3095 1679 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3050 1600 50  0001 C CNN
+F 3 "~" H 3050 1600 50  0001 C CNN
+	1    3050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_E1
+U 1 1 5E0AB8AB
+P 3450 1450
+F 0 "K_E1" H 3450 1400 60  0000 C CNN
+F 1 "KEYSW" H 3450 1350 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3450 1450 60  0001 C CNN
+F 3 "" H 3450 1450 60  0000 C CNN
+	1    3450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DE1
+U 1 1 5E0AB8B2
+P 3750 1600
+F 0 "DE1" V 3800 1400 50  0000 L CNN
+F 1 "D" V 3795 1679 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 1600 50  0001 C CNN
+F 3 "~" H 3750 1600 50  0001 C CNN
+	1    3750 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_R1
+U 1 1 5E0AB8B9
+P 4150 1450
+F 0 "K_R1" H 4150 1450 60  0000 C CNN
+F 1 "KEYSW" H 4150 1350 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4150 1450 60  0001 C CNN
+F 3 "" H 4150 1450 60  0000 C CNN
+	1    4150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DR1
+U 1 1 5E0AB8C0
+P 4450 1600
+F 0 "DR1" V 4500 1400 50  0000 L CNN
+F 1 "D" V 4495 1679 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4450 1600 50  0001 C CNN
+F 3 "~" H 4450 1600 50  0001 C CNN
+	1    4450 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_T1
+U 1 1 5E0AB8C7
+P 4850 1450
+F 0 "K_T1" H 4850 1450 60  0000 C CNN
+F 1 "KEYSW" H 4850 1350 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4850 1450 60  0001 C CNN
+F 3 "" H 4850 1450 60  0000 C CNN
+	1    4850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DT1
+U 1 1 5E0AB8CE
+P 5150 1600
+F 0 "DT1" V 5250 1450 50  0000 L CNN
+F 1 "D" V 5195 1679 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 5150 1600 50  0001 C CNN
+F 3 "~" H 5150 1600 50  0001 C CNN
+	1    5150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_A1
+U 1 1 5E0AC889
+P 2000 2000
+F 0 "K_A1" H 1750 1900 60  0000 C CNN
+F 1 "KEYSW" H 2000 1900 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2000 2000 60  0001 C CNN
+F 3 "" H 2000 2000 60  0000 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DA1
+U 1 1 5E0AC890
+P 2300 2150
+F 0 "DA1" V 2400 1950 50  0000 L CNN
+F 1 "D" V 2345 2229 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 2300 2150 50  0001 C CNN
+F 3 "~" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_CAPS1
+U 1 1 5E0AC897
+P 1050 2000
+F 0 "K_CAPS1" H 850 1900 60  0000 C CNN
+F 1 "KEYSW" H 1050 1900 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_175H" H 1050 2000 60  0001 C CNN
+F 3 "" H 1050 2000 60  0000 C CNN
+	1    1050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CAP1
+U 1 1 5E0AC89E
+P 1350 2150
+F 0 "D_CAP1" V 1450 1850 50  0000 L CNN
+F 1 "D" V 1395 2229 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 1350 2150 50  0001 C CNN
+F 3 "~" H 1350 2150 50  0001 C CNN
+	1    1350 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_S1
+U 1 1 5E0AC8A5
+P 2750 2000
+F 0 "K_S1" H 2750 1950 60  0000 C CNN
+F 1 "KEYSW" H 2750 1900 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2750 2000 60  0001 C CNN
+F 3 "" H 2750 2000 60  0000 C CNN
+	1    2750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DS1
+U 1 1 5E0AC8AC
+P 3050 2150
+F 0 "DS1" V 3150 1950 50  0000 L CNN
+F 1 "D" V 3095 2229 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3050 2150 50  0001 C CNN
+F 3 "~" H 3050 2150 50  0001 C CNN
+	1    3050 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_D1
+U 1 1 5E0AC8B3
+P 3450 2000
+F 0 "K_D1" H 3450 1950 60  0000 C CNN
+F 1 "KEYSW" H 3450 1900 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3450 2000 60  0001 C CNN
+F 3 "" H 3450 2000 60  0000 C CNN
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_D1
+U 1 1 5E0AC8BA
+P 3750 2150
+F 0 "D_D1" V 3800 1900 50  0000 L CNN
+F 1 "D" V 3795 2229 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 2150 50  0001 C CNN
+F 3 "~" H 3750 2150 50  0001 C CNN
+	1    3750 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_F1
+U 1 1 5E0AC8C1
+P 4150 2000
+F 0 "K_F1" H 4150 2000 60  0000 C CNN
+F 1 "KEYSW" H 4150 1900 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4150 2000 60  0001 C CNN
+F 3 "" H 4150 2000 60  0000 C CNN
+	1    4150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DF1
+U 1 1 5E0AC8C8
+P 4450 2150
+F 0 "DF1" V 4500 1950 50  0000 L CNN
+F 1 "D" V 4495 2229 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4450 2150 50  0001 C CNN
+F 3 "~" H 4450 2150 50  0001 C CNN
+	1    4450 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_G1
+U 1 1 5E0AC8CF
+P 4850 2000
+F 0 "K_G1" H 4850 2000 60  0000 C CNN
+F 1 "KEYSW" H 4850 1900 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4850 2000 60  0001 C CNN
+F 3 "" H 4850 2000 60  0000 C CNN
+	1    4850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DG1
+U 1 1 5E0AC8D6
+P 5150 2150
+F 0 "DG1" V 5250 1950 50  0000 L CNN
+F 1 "D" V 5195 2229 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 5150 2150 50  0001 C CNN
+F 3 "~" H 5150 2150 50  0001 C CNN
+	1    5150 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_Z1
+U 1 1 5E0AC8DD
+P 2000 2600
+F 0 "K_Z1" H 2000 2500 60  0000 C CNN
+F 1 "KEYSW" H 2000 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2000 2600 60  0001 C CNN
+F 3 "" H 2000 2600 60  0000 C CNN
+	1    2000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DZ1
+U 1 1 5E0AC8E4
+P 2300 2750
+F 0 "DZ1" V 2400 2600 50  0000 L CNN
+F 1 "D" V 2345 2829 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 2300 2750 50  0001 C CNN
+F 3 "~" H 2300 2750 50  0001 C CNN
+	1    2300 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_SHIFT1
+U 1 1 5E0AC8EB
+P 1050 2600
+F 0 "K_SHIFT1" H 700 2500 60  0000 C CNN
+F 1 "KEYSW" H 1050 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_225H" H 1050 2600 60  0001 C CNN
+F 3 "" H 1050 2600 60  0000 C CNN
+	1    1050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SHIFT_1
+U 1 1 5E0AC8F2
+P 1350 2750
+F 0 "D_SHIFT_1" V 1400 2350 50  0000 L CNN
+F 1 "D" V 1395 2829 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 1350 2750 50  0001 C CNN
+F 3 "~" H 1350 2750 50  0001 C CNN
+	1    1350 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_X1
+U 1 1 5E0AC8F9
+P 2750 2600
+F 0 "K_X1" H 2800 2550 60  0000 C CNN
+F 1 "KEYSW" H 2750 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2750 2600 60  0001 C CNN
+F 3 "" H 2750 2600 60  0000 C CNN
+	1    2750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DX1
+U 1 1 5E0AC900
+P 3050 2750
+F 0 "DX1" V 3150 2550 50  0000 L CNN
+F 1 "D" V 3095 2829 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3050 2750 50  0001 C CNN
+F 3 "~" H 3050 2750 50  0001 C CNN
+	1    3050 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_C1
+U 1 1 5E0AC907
+P 3450 2600
+F 0 "K_C1" H 3450 2550 60  0000 C CNN
+F 1 "KEYSW" H 3450 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3450 2600 60  0001 C CNN
+F 3 "" H 3450 2600 60  0000 C CNN
+	1    3450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DC1
+U 1 1 5E0AC90E
+P 3750 2750
+F 0 "DC1" V 3850 2550 50  0000 L CNN
+F 1 "D" V 3795 2829 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 2750 50  0001 C CNN
+F 3 "~" H 3750 2750 50  0001 C CNN
+	1    3750 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_V1
+U 1 1 5E0AC915
+P 4150 2600
+F 0 "K_V1" H 4150 2500 60  0000 C CNN
+F 1 "KEYSW" H 4150 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4150 2600 60  0001 C CNN
+F 3 "" H 4150 2600 60  0000 C CNN
+	1    4150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DV1
+U 1 1 5E0AC91C
+P 4450 2750
+F 0 "DV1" V 4500 2550 50  0000 L CNN
+F 1 "D" V 4495 2829 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4450 2750 50  0001 C CNN
+F 3 "~" H 4450 2750 50  0001 C CNN
+	1    4450 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_B1
+U 1 1 5E0AC923
+P 4850 2600
+F 0 "K_B1" H 4850 2500 60  0000 C CNN
+F 1 "KEYSW" H 4850 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4850 2600 60  0001 C CNN
+F 3 "" H 4850 2600 60  0000 C CNN
+	1    4850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DB1
+U 1 1 5E0AC92A
+P 5150 2750
+F 0 "DB1" V 5250 2600 50  0000 L CNN
+F 1 "D" V 5195 2829 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 5150 2750 50  0001 C CNN
+F 3 "~" H 5150 2750 50  0001 C CNN
+	1    5150 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_ALT1
+U 1 1 5E0AD7F6
+P 2300 3250
+F 0 "D_ALT1" V 2400 3000 50  0000 L CNN
+F 1 "D" V 2345 3329 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 2300 3250 50  0001 C CNN
+F 3 "~" H 2300 3250 50  0001 C CNN
+	1    2300 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_CTRL1
+U 1 1 5E0AD7FD
+P 1050 3100
+F 0 "K_CTRL1" H 700 3000 60  0000 C CNN
+F 1 "KEYSW" H 1050 3000 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 1050 3100 60  0001 C CNN
+F 3 "" H 1050 3100 60  0000 C CNN
+	1    1050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CTRL1
+U 1 1 5E0AD804
+P 1350 3250
+F 0 "D_CTRL1" V 1450 2900 50  0000 L CNN
+F 1 "D" V 1395 3329 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 1350 3250 50  0001 C CNN
+F 3 "~" H 1350 3250 50  0001 C CNN
+	1    1350 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_WIN1
+U 1 1 5E0AD80B
+P 2750 3100
+F 0 "K_WIN1" H 2650 3000 60  0000 C CNN
+F 1 "KEYSW" H 2750 3000 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2750 3100 60  0001 C CNN
+F 3 "" H 2750 3100 60  0000 C CNN
+	1    2750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_WIN1
+U 1 1 5E0AD812
+P 3050 3250
+F 0 "D_WIN1" V 3150 3000 50  0000 L CNN
+F 1 "D" V 3095 3329 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3050 3250 50  0001 C CNN
+F 3 "~" H 3050 3250 50  0001 C CNN
+	1    3050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_BOT_1U_1
+U 1 1 5E0AD819
+P 3450 3100
+F 0 "K_BOT_1U_1" H 3400 3000 60  0000 C CNN
+F 1 "KEYSW" H 3450 3000 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3450 3100 60  0001 C CNN
+F 3 "" H 3450 3100 60  0000 C CNN
+	1    3450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_BOT_1U_2
+U 1 1 5E0AD827
+P 4150 3100
+F 0 "K_BOT_1U_2" H 4100 3000 60  0000 C CNN
+F 1 "KEYSW" H 4150 3000 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4150 3100 60  0001 C CNN
+F 3 "" H 4150 3100 60  0000 C CNN
+	1    4150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_bot_1U_2
+U 1 1 5E0AD82E
+P 4450 3250
+F 0 "D_bot_1U_2" V 4550 2850 50  0000 L CNN
+F 1 "D" V 4495 3329 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 4450 3250 50  0001 C CNN
+F 3 "~" H 4450 3250 50  0001 C CNN
+	1    4450 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_THUMB_2U1
+U 1 1 5E0AD835
+P 4850 3100
+F 0 "K_THUMB_2U1" H 4800 3000 60  0000 C CNN
+F 1 "KEYSW" H 4850 3000 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_200H-dual-nosilk" H 4850 3100 60  0001 C CNN
+F 3 "" H 4850 3100 60  0000 C CNN
+	1    4850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_th_2U1
+U 1 1 5E0AD83C
+P 5150 3250
+F 0 "D_th_2U1" V 5250 2950 50  0000 L CNN
+F 1 "D" V 5195 3329 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 5150 3250 50  0001 C CNN
+F 3 "~" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_TH_1U_1
+U 1 1 5E0AEBC0
+P 5700 2600
+F 0 "K_TH_1U_1" H 5600 2500 60  0000 C CNN
+F 1 "KEYSW" H 5700 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5700 2600 60  0001 C CNN
+F 3 "" H 5700 2600 60  0000 C CNN
+	1    5700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_TH1_1
+U 1 1 5E0AEBC7
+P 6000 2750
+F 0 "D_TH1_1" V 6100 2450 50  0000 L CNN
+F 1 "D" V 6045 2829 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 6000 2750 50  0001 C CNN
+F 3 "~" H 6000 2750 50  0001 C CNN
+	1    6000 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_TH_1U_2
+U 1 1 5E0AEBCE
+P 5700 3100
+F 0 "K_TH_1U_2" H 5500 3050 60  0000 C CNN
+F 1 "KEYSW" H 5700 3000 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5700 3100 60  0001 C CNN
+F 3 "" H 5700 3100 60  0000 C CNN
+	1    5700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_TH1_2
+U 1 1 5E0AEBD5
+P 6000 3250
+F 0 "D_TH1_2" V 6100 2950 50  0000 L CNN
+F 1 "D" V 6045 3329 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 6000 3250 50  0001 C CNN
+F 3 "~" H 6000 3250 50  0001 C CNN
+	1    6000 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	600  850  750  850 
+Wire Wire Line
+	750  850  750  550 
+Wire Wire Line
+	750  550  1700 550 
+Wire Wire Line
+	4550 550  4550 850 
+Connection ~ 750  850 
+Wire Wire Line
+	3850 850  3850 550 
+Connection ~ 3850 550 
+Wire Wire Line
+	3850 550  4550 550 
+Wire Wire Line
+	3150 850  3150 550 
+Connection ~ 3150 550 
+Wire Wire Line
+	3150 550  3850 550 
+Wire Wire Line
+	2450 850  2450 550 
+Connection ~ 2450 550 
+Wire Wire Line
+	2450 550  3150 550 
+Wire Wire Line
+	1700 850  1700 550 
+Connection ~ 1700 550 
+Wire Wire Line
+	1700 550  2450 550 
+Wire Wire Line
+	600  1450 750  1450
+Wire Wire Line
+	750  1450 750  1200
+Wire Wire Line
+	750  1200 1700 1200
+Wire Wire Line
+	4550 1200 4550 1450
+Connection ~ 750  1450
+Wire Wire Line
+	1700 1450 1700 1200
+Connection ~ 1700 1200
+Wire Wire Line
+	1700 1200 2450 1200
+Wire Wire Line
+	2450 1450 2450 1200
+Connection ~ 2450 1200
+Wire Wire Line
+	2450 1200 3150 1200
+Wire Wire Line
+	3150 1450 3150 1200
+Connection ~ 3150 1200
+Wire Wire Line
+	3850 1450 3850 1200
+Wire Wire Line
+	3150 1200 3850 1200
+Connection ~ 3850 1200
+Wire Wire Line
+	3850 1200 4550 1200
+Wire Wire Line
+	600  2000 750  2000
+Wire Wire Line
+	750  2000 750  1900
+Wire Wire Line
+	4550 1800 4550 2000
+Connection ~ 750  2000
+Wire Wire Line
+	3850 2000 3850 1800
+Connection ~ 3850 1800
+Wire Wire Line
+	3850 1800 4550 1800
+Wire Wire Line
+	3150 2000 3150 1800
+Connection ~ 3150 1800
+Wire Wire Line
+	3150 1800 3850 1800
+Wire Wire Line
+	2450 2000 2450 1800
+Connection ~ 2450 1800
+Wire Wire Line
+	2450 1800 3150 1800
+Wire Wire Line
+	1700 2000 1700 1800
+Wire Wire Line
+	1700 1800 2450 1800
+Wire Wire Line
+	600  2600 750  2600
+Wire Wire Line
+	750  2600 750  2500
+Wire Wire Line
+	750  2400 1700 2400
+Wire Wire Line
+	4550 2400 4550 2600
+Connection ~ 750  2600
+Wire Wire Line
+	5400 2600 5400 2400
+Wire Wire Line
+	5400 2400 4550 2400
+Connection ~ 4550 2400
+Wire Wire Line
+	3850 2600 3850 2400
+Connection ~ 3850 2400
+Wire Wire Line
+	3850 2400 4550 2400
+Wire Wire Line
+	3150 2600 3150 2400
+Connection ~ 3150 2400
+Wire Wire Line
+	3150 2400 3850 2400
+Wire Wire Line
+	2450 2600 2450 2400
+Connection ~ 2450 2400
+Wire Wire Line
+	2450 2400 3150 2400
+Wire Wire Line
+	1700 2600 1700 2400
+Connection ~ 1700 2400
+Wire Wire Line
+	1700 2400 2450 2400
+Wire Wire Line
+	750  3100 650  3100
+Wire Wire Line
+	750  3100 750  2950
+Wire Wire Line
+	750  2950 1700 2950
+Wire Wire Line
+	5400 2950 5400 3100
+Connection ~ 750  3100
+Wire Wire Line
+	4550 3100 4550 3000
+Connection ~ 4550 2950
+Wire Wire Line
+	4550 2950 5400 2950
+Wire Wire Line
+	3850 3100 3850 2950
+Connection ~ 3850 2950
+Wire Wire Line
+	3850 2950 4550 2950
+Wire Wire Line
+	3150 3100 3150 2950
+Connection ~ 3150 2950
+Wire Wire Line
+	3150 2950 3850 2950
+Wire Wire Line
+	2450 3100 2450 2950
+Connection ~ 2450 2950
+Wire Wire Line
+	2450 2950 3150 2950
+Wire Wire Line
+	1700 3100 1700 2950
+Connection ~ 1700 2950
+Wire Wire Line
+	1700 2950 2450 2950
+Text Label 600  850  1    50   ~ 0
+ROW1
+Text Label 600  1450 1    50   ~ 0
+ROW2
+Text Label 600  2000 1    50   ~ 0
+ROW3
+Text Label 600  2600 1    50   ~ 0
+ROW4
+Text Label 650  3100 1    50   ~ 0
+ROW5
+Wire Wire Line
+	1350 2900 1550 2900
+Wire Wire Line
+	1550 2900 1550 3400
+Wire Wire Line
+	1550 3400 1350 3400
+Wire Wire Line
+	1550 2900 1550 2300
+Wire Wire Line
+	1550 1150 1350 1150
+Connection ~ 1550 2900
+Connection ~ 1700 1800
+Wire Wire Line
+	750  1800 1700 1800
+Wire Wire Line
+	1350 1750 1550 1750
+Connection ~ 1550 1750
+Wire Wire Line
+	1550 1750 1550 1150
+Wire Wire Line
+	1350 2300 1550 2300
+Connection ~ 1550 2300
+Wire Wire Line
+	1550 2300 1550 1750
+$Comp
+L keyboard_parts:KEYSW K_ALT1
+U 1 1 5E0AD7EF
+P 2000 3100
+F 0 "K_ALT1" H 1800 2950 60  0000 C CNN
+F 1 "KEYSW" H 2000 3000 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 2000 3100 60  0001 C CNN
+F 3 "" H 2000 3100 60  0000 C CNN
+	1    2000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3400 2400 3400
+Wire Wire Line
+	2400 3400 2400 2900
+Wire Wire Line
+	2400 2900 2300 2900
+Wire Wire Line
+	2400 2900 2400 2300
+Wire Wire Line
+	2400 1150 2300 1150
+Connection ~ 2400 2900
+Wire Wire Line
+	2300 1750 2400 1750
+Connection ~ 2400 1750
+Wire Wire Line
+	2400 1750 2400 1150
+Wire Wire Line
+	2300 2300 2400 2300
+Connection ~ 2400 2300
+Wire Wire Line
+	2400 2300 2400 1750
+Wire Wire Line
+	3050 1150 3100 1150
+Wire Wire Line
+	3100 1150 3100 1750
+Wire Wire Line
+	3100 3400 3050 3400
+Wire Wire Line
+	3050 2900 3100 2900
+Connection ~ 3100 2900
+Wire Wire Line
+	3100 2900 3100 3400
+Wire Wire Line
+	3050 2300 3100 2300
+Connection ~ 3100 2300
+Wire Wire Line
+	3100 2300 3100 2900
+Wire Wire Line
+	3050 1750 3100 1750
+Connection ~ 3100 1750
+Wire Wire Line
+	3100 1750 3100 2300
+$Comp
+L Device:D D_Bpt_1U_1
+U 1 1 5E0AD820
+P 3750 3250
+F 0 "D_Bpt_1U_1" V 3850 2850 50  0000 L CNN
+F 1 "D" V 3795 3329 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 3250 50  0001 C CNN
+F 3 "~" H 3750 3250 50  0001 C CNN
+	1    3750 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 2900
+Wire Wire Line
+	3800 2900 3750 2900
+Wire Wire Line
+	3800 2900 3800 2300
+Wire Wire Line
+	3800 1150 3750 1150
+Connection ~ 3800 2900
+Wire Wire Line
+	3750 1750 3800 1750
+Connection ~ 3800 1750
+Wire Wire Line
+	3800 1750 3800 1150
+Wire Wire Line
+	3750 2300 3800 2300
+Connection ~ 3800 2300
+Wire Wire Line
+	3800 2300 3800 1750
+Wire Wire Line
+	4450 1150 4500 1150
+Wire Wire Line
+	4500 1150 4500 1750
+Wire Wire Line
+	4500 3400 4450 3400
+Wire Wire Line
+	4450 2300 4500 2300
+Connection ~ 4500 2300
+Wire Wire Line
+	4500 2300 4500 2900
+Wire Wire Line
+	4450 1750 4500 1750
+Connection ~ 4500 1750
+Wire Wire Line
+	4500 1750 4500 2300
+Wire Wire Line
+	5150 1150 5200 1150
+Wire Wire Line
+	5200 1150 5200 1750
+Wire Wire Line
+	5200 3400 5150 3400
+Wire Wire Line
+	5150 1750 5200 1750
+Connection ~ 5200 1750
+Wire Wire Line
+	5200 1750 5200 2300
+Wire Wire Line
+	5150 2300 5200 2300
+Connection ~ 5200 2300
+Wire Wire Line
+	5200 2300 5200 2900
+Wire Wire Line
+	5150 2900 5200 2900
+Connection ~ 5200 2900
+Wire Wire Line
+	5200 2900 5200 3400
+Wire Wire Line
+	6000 2900 6050 2900
+Wire Wire Line
+	6050 2900 6050 3400
+Wire Wire Line
+	6050 3400 6000 3400
+Text Label 1550 3400 3    50   ~ 0
+COL1
+Text Label 2400 3400 3    50   ~ 0
+COL2
+Text Label 3100 3400 3    50   ~ 0
+COL3
+Text Label 3800 3400 3    50   ~ 0
+COL4
+Text Label 4500 3400 3    50   ~ 0
+COL5
+Text Label 5200 3400 3    50   ~ 0
+COL6
+Text Label 6050 3400 3    50   ~ 0
+COL7
+$Comp
+L keyboard_parts:KEYSW K_ENTER_rev_2.25u_1
+U 1 1 5E22ACC9
+P 1050 1900
+F 0 "K_ENTER_rev_2.25u_1" H 550 2050 60  0000 C CNN
+F 1 "KEYSW" H 1050 1800 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_225H" H 1050 1900 60  0001 C CNN
+F 3 "" H 1050 1900 60  0000 C CNN
+	1    1050 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 750  1900
+Wire Wire Line
+	750  1900 750  1800
+Wire Wire Line
+	1350 1900 1350 2000
+Connection ~ 1350 2000
+$Comp
+L keyboard_parts:KEYSW K_SHIFT_REV_2.75_1
+U 1 1 5E232BA4
+P 1050 2500
+F 0 "K_SHIFT_REV_2.75_1" H 550 2650 60  0000 C CNN
+F 1 "KEYSW" H 1050 2400 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_275H" H 1050 2500 60  0001 C CNN
+F 3 "" H 1050 2500 60  0000 C CNN
+	1    1050 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 750  2500
+Wire Wire Line
+	750  2500 750  2400
+Wire Wire Line
+	1350 2600 1350 2500
+Connection ~ 1350 2600
+Wire Wire Line
+	9050 4250 9050 4600
+Wire Wire Line
+	9050 4600 9100 4600
+Text Label 9100 4600 0    50   ~ 0
+SERIAL
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 5E0485EA
+P 9000 5650
+F 0 "J1" H 8955 5975 50  0000 C CNN
+F 1 "AudioJack4" H 8955 5884 50  0000 C CNN
+F 2 "usbc_footprint:TRRS-PJ-320D_PAD" H 9000 5650 50  0001 C CNN
+F 3 "~" H 9000 5650 50  0001 C CNN
+	1    9000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J2
+U 1 1 5E04880E
+P 9750 5650
+F 0 "J2" H 9705 5975 50  0000 C CNN
+F 1 "AudioJack4" H 9705 5884 50  0000 C CNN
+F 2 "usbc_footprint:TRRS-PJ-320D_PAD" H 9750 5650 50  0001 C CNN
+F 3 "~" H 9750 5650 50  0001 C CNN
+	1    9750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0123
+U 1 1 5E048ACF
+P 9200 5850
+F 0 "#PWR0123" H 9200 5700 50  0001 C CNN
+F 1 "VCC" H 9218 6023 50  0000 C CNN
+F 2 "" H 9200 5850 50  0001 C CNN
+F 3 "" H 9200 5850 50  0001 C CNN
+	1    9200 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0124
+U 1 1 5E0591AF
+P 9950 5850
+F 0 "#PWR0124" H 9950 5700 50  0001 C CNN
+F 1 "VCC" H 9968 6023 50  0000 C CNN
+F 2 "" H 9950 5850 50  0001 C CNN
+F 3 "" H 9950 5850 50  0001 C CNN
+	1    9950 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5E05937B
+P 9200 5550
+F 0 "#PWR0125" H 9200 5300 50  0001 C CNN
+F 1 "GND" H 9205 5377 50  0000 C CNN
+F 2 "" H 9200 5550 50  0001 C CNN
+F 3 "" H 9200 5550 50  0001 C CNN
+	1    9200 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5E0594E9
+P 9950 5550
+F 0 "#PWR0126" H 9950 5300 50  0001 C CNN
+F 1 "GND" H 9955 5377 50  0000 C CNN
+F 2 "" H 9950 5550 50  0001 C CNN
+F 3 "" H 9950 5550 50  0001 C CNN
+	1    9950 5550
+	-1   0    0    1   
+$EndComp
+Text Label 9950 5650 0    50   ~ 0
+SERIAL
+Text Label 9200 5650 0    50   ~ 0
+SERIAL
+NoConn ~ 9950 5750
+NoConn ~ 9200 5750
+Text Label 10400 1900 0    50   ~ 0
+COL1
+Text Label 9550 1050 1    50   ~ 0
+COL2
+Text Label 9300 1050 1    50   ~ 0
+COL3
+Text Label 9050 1050 1    50   ~ 0
+COL4
+Text Label 8800 1050 1    50   ~ 0
+COL5
+Text Label 8550 1050 1    50   ~ 0
+COL6
+Text Label 8300 1050 1    50   ~ 0
+COL7
+Text Label 10400 3150 0    50   ~ 0
+ROW1
+Text Label 10400 2900 0    50   ~ 0
+ROW2
+Text Label 10400 2650 0    50   ~ 0
+ROW3
+Text Label 10400 2150 0    50   ~ 0
+ROW5
+Text Label 10400 2400 0    50   ~ 0
+ROW4
+$Comp
+L keyboard_parts:KEYSW K_THUMB_1U_3
+U 1 1 5E0562EA
+P 4850 3000
+F 0 "K_THUMB_1U_3" H 4800 2900 60  0000 C CNN
+F 1 "KEYSW" H 4850 2900 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4850 3000 60  0001 C CNN
+F 3 "" H 4850 3000 60  0000 C CNN
+	1    4850 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 3000
+Wire Wire Line
+	4550 3000 4550 2950
+Wire Wire Line
+	5150 3000 5150 3100
+Connection ~ 5150 3100
+$Comp
+L keyboard_parts:KEYSW K_THUMB_1U_4
+U 1 1 5E06F76E
+P 5700 1950
+F 0 "K_THUMB_1U_4" H 5600 1850 60  0000 C CNN
+F 1 "KEYSW" H 5700 1850 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5700 1950 60  0001 C CNN
+F 3 "" H 5700 1950 60  0000 C CNN
+	1    5700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_TH1_3
+U 1 1 5E06F775
+P 6000 2100
+F 0 "D_TH1_3" V 6100 1800 50  0000 L CNN
+F 1 "D" V 6045 2179 50  0000 L CNN
+F 2 "Keebio-Parts:Diode-dual" H 6000 2100 50  0001 C CNN
+F 3 "~" H 6000 2100 50  0001 C CNN
+	1    6000 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 1800 5400 1800
+Wire Wire Line
+	5400 1800 5400 1950
+Connection ~ 4550 1800
+Wire Wire Line
+	6050 2900 6050 2250
+Wire Wire Line
+	6050 2250 6000 2250
+Connection ~ 6050 2900
+$Comp
+L ergocape-rescue:ATMEGA32U4-acheronSymbols U1
+U 1 1 5E0337ED
+P 8800 2650
+F 0 "U1" H 10441 2718 79  0000 L CNB
+F 1 "ATMEGA32U4" H 10441 2583 79  0000 L CNB
+F 2 "acheron_Components:TQPF-44_10x10mm_P0.8mm" H 8800 2650 50  0001 C CNN
+F 3 "" H 8800 2650 50  0001 C CNN
+	1    8800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0EA927
+P 8700 4250
+F 0 "#PWR?" H 8700 4000 50  0001 C CNN
+F 1 "GND" H 8705 4077 50  0000 C CNN
+F 2 "" H 8700 4250 50  0001 C CNN
+F 3 "" H 8700 4250 50  0001 C CNN
+	1    8700 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 2900 4500 2900
+Connection ~ 4500 2900
+Wire Wire Line
+	4500 2900 4500 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5E1077CE
+P 2900 7500
+F 0 "#PWR?" H 2900 7250 50  0001 C CNN
+F 1 "GND" V 2905 7372 50  0000 R CNN
+F 2 "" H 2900 7500 50  0001 C CNN
+F 3 "" H 2900 7500 50  0001 C CNN
+	1    2900 7500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

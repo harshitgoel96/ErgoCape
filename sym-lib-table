@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ergocape-rescue)(type Legacy)(uri ${KIPRJMOD}/ergocape-rescue.lib)(options "")(descr ""))
+)
