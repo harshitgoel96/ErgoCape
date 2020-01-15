@@ -66,7 +66,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x01bf0_ffffffff)
+      (layerselection 0x01ff0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "ergocape_v1"))
+      (outputdirectory "bottom"))
   )
 
   (net 0 "")

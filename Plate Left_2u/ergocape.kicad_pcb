@@ -59,8 +59,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 5.2 5.2)
-    (pad_drill 4.7)
+    (pad_size 4 4)
+    (pad_drill 2.4)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -142,7 +142,7 @@
     (pad "" thru_hole circle (at 0 0) (size 4 4) (drill 2.4) (layers *.Cu *.Mask))
   )
 
-  (module usbc_footprint:mount_hole_2.4x4 (layer F.Cu) (tedit 5E0F23BD) (tstamp 5E22B438)
+  (module usbc_footprint:mount_hole_2.4x4 (layer F.Cu) (tedit 5E1332CB) (tstamp 5E22B438)
     (at 113.2205 60.6425)
     (path /5E126410)
     (fp_text reference H5 (at 0 2.54) (layer F.SilkS)
@@ -151,7 +151,7 @@
     (fp_text value MountingHole (at 0 -3.81) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 0 0) (size 4 4) (drill 2.4) (layers *.Cu *.Mask))
+    (pad "" thru_hole circle (at 0.4445 0) (size 4 4) (drill 2.4) (layers *.Cu *.Mask))
   )
 
   (module usbc_footprint:mount_hole_2.4x4 (layer F.Cu) (tedit 5E0F23BD) (tstamp 5E22B43C)
