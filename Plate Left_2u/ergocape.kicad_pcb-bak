@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "top_2u_left_v2"))
+      (outputdirectory "left_plate"))
   )
 
   (net 0 "")
@@ -1696,7 +1696,7 @@
   (gr_line (start 55.88 127) (end 137.16 127) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 22.86 109.22) (end 50.8 124.46) (layer Edge.Cuts) (width 0.15))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5E206A11) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5E22C5B7) (hatch edge 0.508)
     (connect_pads yes (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.254) (thermal_bridge_width 0.254))
@@ -2502,7 +2502,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5E206A0E) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5E22C5B4) (hatch edge 0.508)
     (connect_pads yes (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.254) (thermal_bridge_width 0.254))
