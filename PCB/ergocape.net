@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\ErgoCape\ergocape\PCB\ergocape.sch)
-    (date "01/18/20 10:31:31")
+    (date "6/21/2020 6:04:37 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -548,7 +548,7 @@
       (tstamp 5E1411B2))
     (comp (ref M1)
       (value ARDUINO_PRO_MICRO)
-      (footprint SparkFun-Boards:ARDUINO_PRO_MICRO)
+      (footprint Keebio-Parts:ArduinoProMicro)
       (libsource (lib SparkFun-Boards) (part ARDUINO_PRO_MICRO) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E1D376D))
@@ -648,11 +648,11 @@
         (pin (num 2) (name ~) (type passive)))))
   (libraries
     (library (logical Connector)
-      (uri G:\KiCad\share\kicad\library/Connector.lib))
+      (uri e:\KiCad\share\kicad\library/Connector.lib))
     (library (logical Device)
-      (uri G:\KiCad\share\kicad\library/Device.lib))
+      (uri e:\KiCad\share\kicad\library/Device.lib))
     (library (logical Mechanical)
-      (uri G:\KiCad\share\kicad\library/Mechanical.lib))
+      (uri e:\KiCad\share\kicad\library/Mechanical.lib))
     (library (logical SparkFun-Boards)
       (uri D:/kicad_lib/SparkFun-Kicad-Libraries-master/SparkFun-Boards.lib))
     (library (logical keyboard_parts)

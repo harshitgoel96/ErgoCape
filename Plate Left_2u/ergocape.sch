@@ -459,7 +459,7 @@ U 1 1 5E0A6DB9
 P 1050 850
 F 0 "K_ESC1" H 1050 800 60  0000 C CNN
 F 1 "KEYSW" H 1050 750 60  0001 C CNN
-F 2 "usbc_footprint:2u_combined" H 1050 850 60  0001 C CNN
+F 2 "usbc_footprint:1u_uni" H 1050 850 60  0001 C CNN
 F 3 "" H 1050 850 60  0000 C CNN
 	1    1050 850 
 	1    0    0    -1  
@@ -484,6 +484,17 @@ F 1 "Logo_Open_Hardware_Small" H 4000 4125 50  0001 C CNN
 F 2 "" H 4000 4350 50  0001 C CNN
 F 3 "~" H 4000 4350 50  0001 C CNN
 	1    4000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_XTRA1
+U 1 1 5E70CDE7
+P 5700 2000
+F 0 "K_XTRA1" H 5600 1900 60  0000 C CNN
+F 1 "KEYSW" H 5700 1900 60  0001 C CNN
+F 2 "usbc_footprint:1u_uni" H 5700 2000 60  0001 C CNN
+F 3 "" H 5700 2000 60  0000 C CNN
+	1    5700 2000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
