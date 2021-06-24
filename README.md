@@ -1,4 +1,5 @@
-# ErgoCape
+# This project has been abandond in favour of Pteron36.
+## ErgoCape
 For the love of all beautiful keycaps
 
 After struggling to get any decent set for ergodox, I decided it was better to shoehorn the ergodox layout to work with the keycaps, instead of getting specialised keycaps.
